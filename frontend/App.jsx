@@ -6,7 +6,7 @@ function App() {
 
   async function generate() {
     const res = await fetch(
-      "http://localhost:8000/generate",
+      "https://ai-app-compiler-backend-rlka.onrender.com/generate"
       {
         method: "POST",
         headers: {
