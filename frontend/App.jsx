@@ -5,9 +5,9 @@ function App() {
   const [result, setResult] = useState("");
 
   async function generate() {
-    const res = await fetch(
-      "https://ai-app-compiler-backend-rlka.onrender.com/generate"
-      {
+   const res = await fetch(
+  "https://ai-app-compiler-backend-rlka.onrender.com/generate",
+  {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
