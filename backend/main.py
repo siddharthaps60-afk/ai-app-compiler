@@ -1,6 +1,5 @@
 from fastapi import FastAPI
-from fastapi.middleware.cors import
-CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 from pipeline.intent_extractor import extract_intent
 from pipeline.system_designer import generate_design
